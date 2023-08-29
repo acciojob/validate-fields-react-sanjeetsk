@@ -10,7 +10,7 @@ const App = () => {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if ((username.trim() === '' && username.length < 2) || (password.trim() === '' && password.length < 4)) {
+    if ((username.trim() === '' && username.length < 2) || (password.trim() === '' && password.length < 2)) {
       setErrorMsg('Both username and password are required.');
     }
   }
