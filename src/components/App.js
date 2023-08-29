@@ -11,7 +11,7 @@ const App = () => {
     e.preventDefault();
 
     if ((username.trim() === '' && username.length < 2) || (password.trim() === '' && password.length < 4)) {
-      setErrorMsg('Both username and password are required');
+      setErrorMsg('Both username and password are required.');
     }
   }
 
